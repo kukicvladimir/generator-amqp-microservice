@@ -1,0 +1,24 @@
+{
+  "name": "Miscroservice",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint . && ./node_modules/.bin/_mocha ./test/*/*/*.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Vladimir Kukic",
+  "license": "MIT",
+  "dependencies": {
+    "amqp": "^0.2.4",
+    "async": "^1.5.1",
+    "dotenv": "^1.2.0",
+    "mocha": "^2.3.4",
+    "mongodb": "^2.1.2",
+    "node-uuid": "^1.4.7",
+    "should": "^8.0.2",
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {}
+}
